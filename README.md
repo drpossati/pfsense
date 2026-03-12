@@ -1,4 +1,4 @@
-# PfSense
+# PfSense in BOX 
 
 -   Estudos e configurações sobre o pfsense
 
@@ -41,3 +41,35 @@
     -   Permission denied: `sudo chmod 666 /dev/ttyS0` 
 
     -   Group dialout: `sudo usermod -aG dialout $USER`
+
+
+## Instalação do PfSense CE
+
+[Instalação passo a passo da versão 2.8.0](https://ti-videotutoriais.blogspot.com/2025/06/pfsense-280-passo-passo-da-instalacao.html)
+
+-   Opções avançadas
+    -   habilitar repositórios CE
+    -   habilitar console serial
+
+*   Selecionar interface de rede ativa WAN
+
+    -   A instalação precisa de conexão com a internet
+
+-   Selecionar interface de rede LAN ou Skip
+
+*   Instalação CE
+
+-   Confirmar o disco e a formatação
+
+*   Selecionar a versão (stable preferencial)
+
+    -   Versões da comunidade CE
+
+    -   Versões comerciais
+
+-   **Finalizado a instalação**
+
+    -   reboot
+    -   Acesso GUI pelo IP definido
+        -   usuário: admin
+        -   senha: pfsense
