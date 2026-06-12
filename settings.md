@@ -10,3 +10,5 @@
 | 04 | WLAN - Rede Sem Fio  | Conexão com a Rede aberta |
 | 05 | SYNC - pfSync / XMLRPC | Conexão entre as boxes para sincronização |
 | 06 | MGMT / VLANs           | Porta reservada para gerenciamento ou trunk de VLANs adicionais |
+
+
