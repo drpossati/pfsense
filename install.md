@@ -8,6 +8,8 @@
 
 -   Boot Pen Driver (balenaEtcher)
 
+-   Verifique o tipo de boot EFI ou MBR
+
 ### Hardware FW-7535D da Lanner Electronics
 
 -   Comunicar o FW-7535D com um computador
@@ -22,7 +24,7 @@
 
 -   Acesso via porta serial
 
-    -   Cabo serial RJ45 para DB9
+    -   Cabo serial RJ45 para DB9 (cuidado como tamanho e extensores do cabo serial. O teclado pode não funcionar como deveria)
 
     -   `screen /dev/ttyS0 115200, cs8, -ixon, -ixoff`
 
@@ -34,7 +36,11 @@
 
 *   Reiniciei o FW-7535D e o terminal do computador se comportará como um monitor mostrando as informações de inicialização do FW-7535D
 
--   Em caso de falha
+    -   TAP: acessar a bios
+
+    -   F11: escolher boot
+
+-   Em caso de falha na inicialização no terminal
 
     -   Permissões: `ls -l /dev/ttyS*`
 
